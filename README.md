@@ -37,7 +37,7 @@
 ### 📫 Vamos conversar?
 
 - LinkedIn: [Meu linkedin](https://www.linkedin.com/in/ot%C3%A1vio-guedes-ab44a4248/)
-- Email: [Meu Email](mailto:otavioaredes62@email.com)
+- Email: [Meu Email](otavioaredes62@email.com)
 
 ---
 
