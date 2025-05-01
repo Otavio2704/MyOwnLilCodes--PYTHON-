@@ -24,7 +24,7 @@
 ![PyCharm](https://img.shields.io/badge/-PyCharm-000000?logo=pycharm&logoColor=green)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual-studio-code&logoColor=fff)
 
-<!-- Adicione as tecnologias que você usa -->
+<!--tecnologias que eu uso -->
 
 ---
 
