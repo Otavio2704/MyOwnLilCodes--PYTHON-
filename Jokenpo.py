@@ -1,33 +1,40 @@
 import random
 import time
-cpu = random.randint(1,3)
 
-print('Vamos jogar Jokempo?')
-jogador = input('Insira 1 para pedra, 2 par papel e 3 para tesoura: ')
+#Jo-Ken-Po...
+def exibir_contagem():
+    print('JO')
+    time.sleep(0.5)
+    print('KEM')
+    time.sleep(0.5)
+    print('PO')
+    time.sleep(0.5)
 
-print('JO')
-time.sleep(0.5)
-print('KEM')
-time.sleep(0.5)
-print('PO')
-time.sleep(0.5)
+#Escolher entre pedra,papel ou tesoura
+def obter_escolha_jogador():
+    escolha = input('Insira 1 para pedra, 2 para papel e 3 para tesoura: ')
+    if escolha in ["1", "2", "3"]:
+        return int(escolha)
+    else:
+        print('\nNúmero inválido')
+        return None
+#Para exibir o resultado
+def mostrar_escolha(nome, escolha):
+    opcoes = {1: 'Pedra', 2: 'Papel', 3: 'Tesoura'}
+    print(f'\n{nome}: {opcoes.get(escolha, "Escolha inválida")}')
 
-if jogador == "1":
-    print('\nJogador; Pedra')
-elif jogador == "2":
-    print('\nJogador: Papel')
-elif jogador == "3":
-    print('\nJogador: Tesoura')
-else:
-    print('\nNúmero inválido')
+def jogar_jokempo():
+    print('Vamos jogar Jokempo?')
+    jogador = obter_escolha_jogador()
+    if jogador is None:
+        return
 
-if cpu == 1:
-    print("Computador: Pedra")
-elif cpu == 2:
-    print('Computador: Papel')
-elif cpu == 3:
-    print('Computador: Tesoura')
-else:
-    print('???')
+    cpu = random.randint(1, 3)
 
+#Resultados
+    exibir_contagem()
+    mostrar_escolha('Jogador', jogador)
+    mostrar_escolha('Computador', cpu)
 
+#Executa o jogo
+jogar_jokempo()
