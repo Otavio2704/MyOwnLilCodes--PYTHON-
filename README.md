@@ -1,4 +1,4 @@
-<h1 align="center">👋 Olá, eu sou Otávio (vulgo PandaLoko)!</h1>
+<h1 align="center">👋 Olá, eu sou Otávio Guedes!</h1>
 
 <p align="center">
   🚀 Engenheiro de Software em formação • Apaixonado por tecnologia, e resolver problemas
