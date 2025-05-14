@@ -2,11 +2,11 @@ import unicodedata
 
 # Taxas de câmbio simuladas
 taxas = {
-    "BRL": {"USD": 0.20, "EUR": 0.18, "GBP": 0.15, "JPY": 30.00},
-    "USD": {"BRL": 5.00, "EUR": 0.90, "GBP": 0.75, "JPY": 150.00},
-    "EUR": {"BRL": 5.50, "USD": 1.11, "GBP": 0.83, "JPY": 160.00},
-    "GBP": {"BRL": 6.70, "USD": 1.33, "EUR": 1.20, "JPY": 180.00},
-    "JPY": {"BRL": 0.033, "USD": 0.0067, "EUR": 0.0062, "GBP": 0.0056}
+    "BRL": {"USD": 0.18, "EUR": 0.16, "GBP": 0.13, "JPY": 26.00},
+    "USD": {"BRL": 5.64, "EUR": 0.89, "GBP": 0.75, "JPY": 146.70},
+    "EUR": {"BRL": 6.31, "USD": 1.12, "GBP": 0.84, "JPY": 163.97},
+    "GBP": {"BRL": 7.48, "USD": 1.33, "EUR": 1.19, "JPY": 194.57},
+    "JPY": {"BRL": 0.038, "USD": 0.0068, "EUR": 0.0061, "GBP": 0.0051}
 }
 
 # Mapeamento de nomes para códigos
