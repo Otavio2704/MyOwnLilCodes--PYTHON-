@@ -1,10 +1,5 @@
+#Função que gera a sequencia de fibonacci
 def sequencia_fibonacci(n):
-    """
-    Gera a sequência de Fibonacci até o n-ésimo termo.
-    
-    :n: Número de termos da sequência.
-    :return: Uma lista contendo a sequência de Fibonacci.
-    """
     if n <= 0:
         return []
     elif n == 1:
@@ -17,7 +12,7 @@ def sequencia_fibonacci(n):
         sequence.append(sequence[-1] + sequence[-2])
     return sequence
 
-# Exemplo de uso
+# Menu
 if __name__ == "__main__":
     termos = int(input("Quantos termos da sequência de Fibonacci você deseja? "))
     print(f"A sequência de Fibonacci com {termos} termos é: {sequencia_fibonacci(termos)}")
