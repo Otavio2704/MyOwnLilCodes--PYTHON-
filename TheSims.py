@@ -1,6 +1,7 @@
 import time
 import random
 
+#========= CLASSE DO PERSONAGEM ==========
 class Sim:
     def __init__(self, nome):
         self.nome = nome
@@ -13,7 +14,7 @@ class Sim:
         self.dias_sobrevividos = 0
         self.motivo_morte = None
 
-#Define os status
+#========= INICIALIZA O STATUS DO PERSONAGEM ==========
     def status(self):
         return {
             "Fome": self.fome,
@@ -23,13 +24,13 @@ class Sim:
             "Dinheiro": self.dinheiro,
         }
 
-#Mostra o status do personagem    
+#========= MOSTRA O STATUS DO PERSONAGEM ==========
     def mostrar_status(self):
         print(f"\nStatus de {self.nome}:")
         for k, v in self.status().items():
             print(f"{k}: {v}")
 
-#Função que analisa o status do personagem
+#========= CHECA SE O PERSONAGEM ESTÁ VIVO ==========
     def checar_estado(self):
         causas = {
             "fome": self.fome,
@@ -44,25 +45,25 @@ class Sim:
                 print(f"\n :( {self.nome} morreu de {motivo}. Fim de jogo.")
                 break
 
-#Função de comer    
+#========= O PERSONAGEM COME ==========
     def comer(self):
         print(f"\n{self.nome} está comendo.")
         self.fome = min(100, self.fome + 30)
         self.energia -= 10
 
-#Função de dormir    
+#========= O PERSONAGEM DORME ==========
     def dormir(self):
         print(f"\n{self.nome} está dormindo.")
         self.energia = min(100, self.energia + 50)
         self.higiene -= 10
 
-#Função de banho    
+#========= O PERSONAGEM TOMA BANHO ==========
     def tomar_banho(self):
         print(f"\n{self.nome} está tomando banho.")
         self.higiene = min(100, self.higiene + 40)
         self.energia -= 5
 
-#Função do trabalho
+#========= O PERSONAGEM TRABALHA ==========
     def trabalhar(self):
         print(f"\n{self.nome} está trabalhando.")
         self.energia -= 30
@@ -72,14 +73,14 @@ class Sim:
         self.dinheiro += 50
         print(f"{self.nome} ganhou R$50!")
 
-#Função de assistir TV
+#========= O PERSONAGEM ASSISTE TV  ==========
     def assistir_tv(self):
         print(f"\n{self.nome} está assistindo TV.")
         self.diversao = min(100, self.diversao + 25)
         self.energia -= 10
         self.fome -= 5
 
-#Função dos itens do jogo
+#========= LOJINHA DO JOGO ==========
     def comprar_item(self):
         while True:
             print("\n🛒 Itens disponíveis para compra:")
@@ -110,7 +111,7 @@ class Sim:
             else:
                 print("Dinheiro insuficiente ou escolha inválida. Tente novamente.")
 
-    #Subtração de status do personagem
+#=========FUNÇÃO QUE PASSA O TEMPO =========
     def passar_tempo(self):
         self.fome -= random.randint(5, 10)
         self.energia -= random.randint(3, 8)
@@ -118,7 +119,7 @@ class Sim:
         self.higiene -= random.randint(2, 5)
         self.checar_estado()
 
-#Inicia o jogo
+# =========SIMULADOR DO JOGO =========
 def simular_jogo():
     nome = input("Digite o nome do seu personagem: ")
     sim = Sim(nome)
@@ -127,7 +128,7 @@ def simular_jogo():
         sim.dias_sobrevividos += 1
         print(f"\n=== Dia {sim.dias_sobrevividos} ===")
         sim.mostrar_status()
-
+        
         print("\nEscolha uma ação:")
         print("1. Comer")
         print("2. Dormir")
@@ -155,12 +156,12 @@ def simular_jogo():
             print(f"\n👋 Até logo, {sim.nome}!")
             break
         else:
-            print("Escolha inválida. Nada aconteceu.")
+            print("\nEscolha inválida. Nada aconteceu.")
 
         sim.passar_tempo()
         time.sleep(1)
 
-# Exibir resumo de vida ao final
+ # ========= RESUMO DO JOGO ==========
     print("\n📜 Resumo da vida de", sim.nome)
     print(f"- Dias vividos: {sim.dias_sobrevividos}")
     print(f"- Dinheiro final: R${sim.dinheiro}")
@@ -168,5 +169,7 @@ def simular_jogo():
         print(f"- Causa da morte: {sim.motivo_morte}")
     else:
         print("- Saiu do jogo antes de morrer.")
+    input("\nPressione ENTER para sair...")
 
+# ========= EXECUÇÃO DO JOGO ==========
 simular_jogo()
