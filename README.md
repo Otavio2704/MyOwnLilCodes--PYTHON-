@@ -1,49 +1,49 @@
-<h1 align="center">👋 Olá, eu sou Otávio Guedes!</h1>
+# 🐼 MyOwnLilCodes--PYTHON
 
-<p align="center">
-  🚀 Engenheiro de Software em formação • Apaixonado por tecnologia, e resolver problemas
-</p>
-
----
-
-### 🧠 Sobre mim
-
-- 🎓 Estudante de **Engenharia de Software**
-- 💻 Atualmente focado em **[back-end | front-end]** 
-- 🔍 Sempre aprendendo algo novo em **Python, HTML, CSS e JavaScript**
-- 🌎 Buscando oportunidades para colaborar em projetos open source
+Bem-vindo ao **MyOwnLilCodes--PYTHON-**!  
+Este repositório reúne meus códigos em **Python**, criados com o objetivo de treinar, experimentar e compartilhar meus projetos pessoais.
 
 ---
 
-### 🛠️ Tecnologias & Ferramentas
+## 🚀 Sobre o Repositório
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=000)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=fff)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=fff)
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=fff)
-![PyCharm](https://img.shields.io/badge/-PyCharm-000000?logo=pycharm&logoColor=green)
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual-studio-code&logoColor=fff)
+Aqui você encontrará:
 
-<!--tecnologias que eu uso -->
+- ✅ **Exercícios de Programação:** Resolução de problemas para praticar lógica e sintaxe Python.
+- ✅ **Projetos Pessoais:** Pequenas aplicações e scripts que desenvolvi para estudo ou diversão.
+- ✅ **Testes e Protótipos:** Códigos experimentais e provas de conceito.
+- ✅ **Demonstrações de Boas Práticas:** Exemplos com organização modular, documentação e padrões de código.
 
 ---
 
-### 📊 GitHub Stats
+## 🛠️ Tecnologias Utilizadas
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=PandaLoko27&show_icons=true&theme=tokyonight&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PandaLoko27&layout=compact&theme=tokyonight"/>
-</p>
+- **Python** — linguagem principal de desenvolvimento.
+- Bibliotecas padrão e, eventualmente, algumas externas (informadas nos projetos).
+
+---
+---
+
+## 🎯 Objetivos
+
+- 📚 Consolidar conhecimentos em Python.
+- 🛠️ Explorar diferentes abordagens e paradigmas de programação.
+- 🤝 Compartilhar experiências e aprendizados com a comunidade.
 
 ---
 
-### 📫 Vamos conversar?
+## 📄 Licença
 
-- Meu LinkedIn: [https://www.linkedin.com/in/ot%C3%A1vio-guedes-ab44a4248/](https://www.linkedin.com/in/ot%C3%A1vio-guedes-ab44a4248/)
-- Meu Email: [otavioaredes62@gmail.com](otavioaredes62@email.com)
+Este repositório está licenciado sob a **MIT License** — sinta-se à vontade para usar, modificar e distribuir.
 
 ---
 
-<p align="center">
-  💬 "A tecnologia move o mundo, e eu quero fazer parte dessa jornada."
-</p>
+## 📬 Contatos
+
+- GitHub: [@PandaLoko27](https://github.com/PandaLoko27)
+- LinkedIn: [Otávio Araújo Aredes Guedes](https://www.linkedin.com/in/otávio-araújo-aredes-guedes-ab44a4248/)
+- E-mail: [otavioaredes62@gmail.com](mailto:otavioaredes62@gmail.com)
+
+---
+
+⭐ Se você gostou, não esqueça de deixar uma estrela no repositório!
