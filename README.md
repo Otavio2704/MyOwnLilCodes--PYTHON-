@@ -1,4 +1,4 @@
-# 🐼 MyOwnLilCodes--PYTHON
+#🐍 MyOwnLilCodes--PYTHON
 
 Bem-vindo ao **MyOwnLilCodes--PYTHON-**!  
 Este repositório reúne meus códigos em **Python**, criados com o objetivo de treinar, experimentar e compartilhar meus projetos pessoais.
@@ -29,12 +29,6 @@ Aqui você encontrará:
 - 📚 Consolidar conhecimentos em Python.
 - 🛠️ Explorar diferentes abordagens e paradigmas de programação.
 - 🤝 Compartilhar experiências e aprendizados com a comunidade.
-
----
-
-## 📄 Licença
-
-Este repositório está licenciado sob a **MIT License** — sinta-se à vontade para usar, modificar e distribuir.
 
 ---
 
