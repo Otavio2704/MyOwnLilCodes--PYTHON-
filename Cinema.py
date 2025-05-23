@@ -96,10 +96,10 @@ while True:
         # Loop para escolher o horário
         while True:
             filme_escolhido.exibir_horarios()
-            horario = input("Escolha um horário (ex: 14:00) ou 'voltar' para escolher outro filme: ")
+            horario = input("Escolha um horário (ex: 14:00) ou '0' para escolher outro filme: ")
 
             # Opção de voltar para escolher outro filme
-            if horario.lower() == "voltar":
+            if horario.lower() == "0":
                 break
 
             # Se o horário escolhido for válido
