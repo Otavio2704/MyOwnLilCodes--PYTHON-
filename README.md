@@ -1,6 +1,6 @@
 ## 🐍 MyOwnLilCodes--PYTHON
 
-Bem-vindo ao **MyOwnLilCodes--PYTHON-**!  
+Bem-vindo ao **MyOwnLilCodes--PYTHON**!  
 Este repositório reúne meus códigos em **Python**, criados com o objetivo de treinar, experimentar e compartilhar meus projetos pessoais.
 
 ---
