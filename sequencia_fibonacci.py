@@ -7,10 +7,10 @@ def sequencia_fibonacci(n):
     elif n == 2:
         return [0, 1]
     
-    sequence = [0, 1]
+    sequencia = [0, 1]
     for i in range(2, n):
-        sequence.append(sequence[-1] + sequence[-2])
-    return sequence
+        sequencia.append(sequencia[-1] + sequencia[-2])
+    return sequencia
 
 # Menu
 if __name__ == "__main__":
