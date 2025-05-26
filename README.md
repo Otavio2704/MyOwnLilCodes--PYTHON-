@@ -22,7 +22,6 @@ Aqui você encontrará:
 - Bibliotecas padrão e, eventualmente, algumas externas (informadas nos projetos).
 
 ---
----
 
 ## 🎯 Objetivos
 
