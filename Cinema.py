@@ -2,8 +2,7 @@
 class Filme:
     def __init__(self, nome, horarios):
         self.nome = nome
-        self.horarios = horarios  # Lista de horários disponíveis para o filme
-        # Dicionário com sessões por horário
+        self.horarios = horarios
         self.sessoes = {horario: Sessao(horario) for horario in horarios}
 
     # Função que exibe os horários disponíveis do filme
@@ -15,9 +14,9 @@ class Filme:
 # Classe que representa uma Sessão de cinema
 class Sessao:
     def __init__(self, horario, total_cadeiras=10):
-        self.horario = horario  # Horário da sessão
-        self.total_cadeiras = total_cadeiras  # Total de cadeiras disponíveis
-        self.cadeiras_ocupadas = set()  # Conjunto de cadeiras ocupadas
+        self.horario = horario
+        self.total_cadeiras = total_cadeiras
+        self.cadeiras_ocupadas = set()
 
     # Função que mostra o status de todas as cadeiras
     def mostrar_cadeiras_disponiveis(self):
@@ -43,10 +42,10 @@ class Sessao:
     def todas_ocupadas(self):
         return len(self.cadeiras_ocupadas) >= self.total_cadeiras
 
-# Classe que representa o Cinema, contendo vários filmes
+#Classe de filmes no cinema
 class Cinema:
     def __init__(self):
-        self.filmes = []  # Lista de filmes em cartaz
+        self.filmes = []
 
     # Função para adicionar um filme ao cinema
     def adicionar_filme(self, filme):
@@ -93,7 +92,6 @@ while True:
     
     # Se o filme for válido
     if filme_escolhido:
-        # Loop para escolher o horário
         while True:
             filme_escolhido.exibir_horarios()
             horario = input("Escolha um horário (ex: 14:00) ou '0' para escolher outro filme: ")
@@ -109,14 +107,13 @@ while True:
                 # Verifica se todas as cadeiras estão ocupadas
                 if sessao.todas_ocupadas():
                     print("\nTodas as cadeiras dessa sessão estão ocupadas. Por favor, escolha outro horário.")
-                    continue  # Volta para escolher outro horário
+                    continue
 
                 # Loop para reservar cadeiras
                 while True:
                     sessao.mostrar_cadeiras_disponiveis()
                     try:
                         quantidade = int(input("Quantas cadeiras deseja reservar? "))
-                        # Verifica se a quantidade é válida
                         if quantidade <= 0 or quantidade > (sessao.total_cadeiras - len(sessao.cadeiras_ocupadas)):
                             print("Quantidade inválida ou maior que o número de cadeiras disponíveis.")
                             continue
@@ -124,8 +121,8 @@ while True:
                         print("Por favor, insira um número válido.")
                         continue
 
+                    #Reserva de cadeiras
                     reservadas = 0
-                    # Loop para reservar todas as cadeiras desejadas
                     while reservadas < quantidade:
                         try:
                             cadeira = int(input(f"\nEscolha o número da cadeira ({reservadas + 1}/{quantidade}): "))
