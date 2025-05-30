@@ -1,3 +1,4 @@
+#Função que codifica o texto oferecido pelo usuário
 def codificar_cifra_cesar(texto, deslocamento):
     resultado = ""
 
@@ -15,9 +16,11 @@ def codificar_cifra_cesar(texto, deslocamento):
 
     return resultado
 
+#Decodifica texto oferecido pelo usuário
 def decodificar_cifra_cesar(texto, deslocamento):
     return codificar_cifra_cesar(texto, -deslocamento)
 
+#Menu principal
 def main():
     print("Cifra de César - Codificador/Decodificador\n")
 
