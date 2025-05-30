@@ -17,7 +17,7 @@ nomes = {
 #Remover o acento na hora de escrever "Dólar"
 def remover_acentos(txt):
     return ''.join(c for c in unicodedata.normalize('NFD', txt) if unicodedata.category(c) != 'Mn').lower()
-#Função que pega o número
+#Função que pega o número do usuário
 def pegar_moeda(nome):
     return nomes.get(remover_acentos(nome))
 
