@@ -58,7 +58,7 @@ def exibir_instrucoes_finais():
     print('5- E caso possua alguma doença citada na pesquisa, também não poderá doar sangue')
     print('\nTenha um ótimo dia, uma ótima tarde e uma ótima noite :)')
 
-#Função que realiza a pesquisa
+#Função que realiza o questionário
 def pesquisa_doacao_sangue():
     print('\nEsta é uma pesquisa para analisar se você é uma pessoa apta para realizar doação de sangue:')
     idade = verificar_idade()
@@ -68,5 +68,5 @@ def pesquisa_doacao_sangue():
     doencas = verificar_doencas()
     exibir_instrucoes_finais()
 
-# Executar a pesquisa
+# Executa o questionário
 pesquisa_doacao_sangue()
