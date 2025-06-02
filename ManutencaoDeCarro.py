@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 
-tipo_carro = input('Qual o tipo do seu carro (P/M/G)?: ')  # Pequeno, Médio, Grande
+tipo_carro = input('Qual o tipo do seu carro (P/M/G)?: ')  # Tipo de carro: Pequeno, Médio, Grande
 tempo_pequeno = 30
 tempo_medio = 45
 tempo_grande = 60
