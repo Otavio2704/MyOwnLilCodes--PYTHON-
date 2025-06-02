@@ -1,7 +1,7 @@
 import random
 import time
 
-#Jo-Ken-Po...
+#Contagem do JOKEMPO
 def exibir_contagem():
     print('JO')
     time.sleep(0.5)
