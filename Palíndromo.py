@@ -1,4 +1,4 @@
-#Função que analisa se a palavra é palíndromo ou não
+#Analisa se a palavra é palíndromo ou não
 def verificar_palindromo(palavra):
     palavra = palavra.upper().strip()
     palavra_invertida = palavra[::-1]
