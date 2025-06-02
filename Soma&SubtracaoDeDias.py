@@ -1,11 +1,13 @@
 from datetime import datetime, timedelta
 
+#Menu principal
 def menu():
     print("\nCalculadora de Dias")
     print("1. Somar dias a uma data")
     print("2. Subtrair dias de uma data")
     print("3. Sair")
 
+#Obtém a data oferecida pelo usuário
 def obter_data():
     data_str = input("Digite a data no formato (DD/MM/AAAA): ")
     try:
@@ -15,6 +17,7 @@ def obter_data():
         print("Data inválida. Tente novamente.")
         return obter_data()
 
+#Obtém os dias oferecidos pelo usuário
 def obter_dias():
     try:
         dias = int(input("Digite o número de dias: "))
@@ -23,6 +26,7 @@ def obter_dias():
         print("Valor inválido. Tente novamente.")
         return obter_dias()
 
+#Menu principal
 def main():
     while True:
         menu()
