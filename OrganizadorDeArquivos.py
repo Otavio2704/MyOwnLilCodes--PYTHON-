@@ -12,7 +12,7 @@ CATEGORIAS_PADRAO = {
     "Compactados": [".zip", ".rar", ".tar", ".gz"],
     "Executáveis": [".exe", ".msi", ".bat"]
 }
-#função que classifica os arquivos
+#função que classifica os arquivos presentes
 def classificar_arquivo(nome_arquivo, categorias):
     _, extensao = os.path.splitext(nome_arquivo.lower())
     for categoria, extensoes in categorias.items():
