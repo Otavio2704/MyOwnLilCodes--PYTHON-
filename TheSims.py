@@ -1,7 +1,7 @@
 import time
 import random
 
-#========= CLASSE DO PERSONAGEM ==========
+#======== CLASSE DO PERSONAGEM =========
 class Sim:
     def __init__(self, nome):
         self.nome = nome
