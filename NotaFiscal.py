@@ -18,7 +18,7 @@ class Produto:
     def __str__(self):
         return f"{self.nome} - R$ {self.preco_unitario:.2f}"
 
-#Classe do item da nota fiscal
+#Classe dos itens da nota fiscal
 class ItemNota:
     def __init__(self, produto, quantidade):
         self.produto = produto
