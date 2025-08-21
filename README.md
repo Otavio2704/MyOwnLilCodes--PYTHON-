@@ -33,7 +33,7 @@ Aqui você encontrará:
 
 ## 📬 Contatos
 
-- GitHub: [@PandaLoko27](https://github.com/PandaLoko27)
+- GitHub: [@Otavio2707](https://github.com/Otavio2704)
 - LinkedIn: [Otávio Araújo Aredes Guedes](https://www.linkedin.com/in/otávio-araújo-aredes-guedes-ab44a4248/)
 - E-mail: [otavioaredes62@gmail.com](mailto:otavioaredes62@gmail.com)
 
